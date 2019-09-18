@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
 #topheader {
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,24 +13,42 @@
     border-bottom: solid #cccccc 2px;
     top: 0;
 }
-
 #header {
     position: absolute;
     font-size: 25px;
     background: #4aaaa5;
     color: white;
-    width: 12%;
+    width: 14%;
     left: 15%;
     padding: 20px;
   }
+.content {
+    color: #4aaaa5;
+}
 
-#header-content {
+#front {
+    margin-right: 5px;
+    padding-right: 10px;
+    border-right: solid 1px;
+}
+
+#portfolio {
+    margin-right: 5px;
+    padding-right: 10px;
+    border-right: solid 1px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header-content {
     position: absolute;
+    top: 35%;
     right: 15%;
     background: #ffffff`;
     color: #4aaaa5;
   }
-
 #about {
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -37,19 +59,21 @@
     margin: 0 auto;
 }
 
+hr {
+    margin-bottom: 20px;
+}
 p {
     line-height: 2.0;
 }
-
 img {
     float: left;
     margin-right: 20px;
 }
-
-#footer {
-    position: sticky;
+.footer {
+    position: fixed;
     padding: 30px;
     bottom: 0px;
+    width: 100%;
     background: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
@@ -58,6 +82,6 @@ img {
     font-size: small;
 }
 
-#copywrite {
-    bottom: 0;
+.footer, .push {
+    height: 0;
 }
