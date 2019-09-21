@@ -132,12 +132,13 @@ input[type=text], select, textarea {
     justify-content: center;
     align-items: flex-end;
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .overlay {
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
     background: #4aaaa5;
     width: 150px;
     color: #ffffff;
@@ -150,35 +151,34 @@ input[type=text], select, textarea {
 #portfolio1 {
     float: left;
     text-align: center;
-    padding: 10px;
-    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-bottom: 30px;
 
 }
 #portfolio2 {
     float: left;
     overflow: hidden;
     text-align: center;
-    padding: 10px;
-
+    padding-left: 10px;
 }
 #portfolio3 {
     clear: both;
     float: left;
     overflow: hidden;
     text-align: center;
-    padding: 10px;
+    padding-right: 10px;
 
 }
 #portfolio4 {
     float: left;
     overflow: hidden;
     text-align: center;
-    padding: 10px;
+    padding-left: 10px;
 }
 #portfolio5 {
     clear: both;
     float: left;
     overflow: hidden;
     text-align: center;
-    padding: 10px;
+    padding-right: 10px;
 }
